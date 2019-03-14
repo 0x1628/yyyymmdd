@@ -1,0 +1,34 @@
+{
+  "name": "yyyyddmm",
+  "version": "1.0.1",
+  "description": "Utility functions for working with YYYYMMDD type",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "build": "tsc -p . && tsc -p ./tsconfig.esm.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fragment0/yyyymmdd.git"
+  },
+  "keywords": [
+    "datetime",
+    "yyyymmdd",
+    "fragment0"
+  ],
+  "files": [
+    "lib",
+    "esm"
+  ],
+  "author": "hi@fragment0.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fragment0/yyyymmdd/issues"
+  },
+  "homepage": "https://github.com/fragment0/yyyymmdd#readme",
+  "devDependencies": {
+    "@fragment0/tslint-config": "^0.1.7",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  }
+}
